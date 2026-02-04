@@ -1,0 +1,15 @@
+{
+  "annotationDefinitions": [
+    {
+      "@type": "type.unity.com/unity.solo.BoundingBox2DAnnotation",
+      "id": "bounding box",
+      "description": "Produces 2D bounding box annotations for all visible objects that bear a label defined in this labeler's associated label configuration.",
+      "spec": [
+        {
+          "label_id": 1,
+          "label_name": "Valve"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "frame": 499,
+  "sequence": 498,
+  "step": 0,
+  "timestamp": 0.0,
+  "captures": [
+    {
+      "@type": "type.unity.com/unity.solo.RGBCamera",
+      "id": "camera",
+      "description": "",
+      "position": [
+        -3.78571224,
+        -1.42563176,
+        88.59256
+      ],
+      "rotation": [
+        0.00402124133,
+        0.402618617,
+        -0.00176873733,
+        0.915357351
+      ],
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "filename": "step0.camera.png",
+      "imageFormat": "Png",
+      "dimension": [
+        854.0,
+        490.0
+      ],
+      "projection": "Perspective",
+      "matrix": [
+        0.560343444,
+        0.0,
+        0.0,
+        0.0,
+        0.9759347,
+        0.0,
+        0.0,
+        0.0,
+        -1.0006001
+      ],
+      "annotations": [
+        {
+          "@type": "type.unity.com/unity.solo.BoundingBox2DAnnotation",
+          "id": "bounding box",
+          "sensorId": "camera",
+          "description": "Produces 2D bounding box annotations for all visible objects that bear a label defined in this labeler's associated label configuration.",
+          "values": [
+            {
+              "instanceId": 1,
+              "labelId": 1,
+              "labelName": "Valve",
+              "origin": [
+                354.0,
+                197.0
+              ],
+              "dimension": [
+                137.0,
+                93.0
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "metrics": [
+    {
+      "@type": "type.unity.com/unity.solo.GenericMetric",
+      "id": "scenario_iteration",
+      "sensorId": "",
+      "annotationId": "",
+      "description": "Iteration information for dataset sequences",
+      "value": 497
+    },
+    {
+      "@type": "type.unity.com/unity.solo.GenericMetric",
+      "id": "random-seed",
+      "sensorId": "",
+      "annotationId": "",
+      "description": "The random seed used to initialize the random state of the simulation. Only triggered once per simulation.",
+      "value": 539662031
+    }
+  ]
+}
