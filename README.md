@@ -28,12 +28,7 @@ The synthetic dataset was generated using Unity with the following randomized pa
 
 
 **Unity Implementation:**
-Custom Unity C# scripts were written to control the simulation:
-
-- `RandomizeTexture.cs`: Applies randomized textures to the valve mesh
-- `CameraRandomizer.cs`: Randomizes camera pose and field of view
-- `ScreenshotExporter.cs`: Captures rendered images at fixed resolution
-- `AnnotationExporter.cs`: Computes 2D bounding boxes from 3D object geometry and exports annotations in JSON format
+Custom Unity C# scripts were written to control the simulation: HDRISky, Camera Zoom, Camera Rotation and Valve Material were all randomized
 
 **Dataset Format:**
 Each generated sample consists of:
